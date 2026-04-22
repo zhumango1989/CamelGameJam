@@ -21,6 +21,7 @@ namespace GameJam.Input
         public event Action OnInventory;
         public event Action<float> OnScroll;
 
+
         [Header("Settings")]
         [SerializeField] private float mouseSensitivity = 2f;
 
